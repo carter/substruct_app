@@ -3,7 +3,7 @@
 	url = git://github.com/lazyatom/engines.git
 [submodule "vendor/plugins/substruct"]
 	path = vendor/plugins/substruct
-	url = http://git.gitorious.org/substruct/mainline.git
+	url = git://github.com/carter/substruct.git
 [submodule "vendor/plugins/attachment_fu"]
 	path = vendor/plugins/attachment_fu
 	url = git://github.com/technoweenie/attachment_fu.git
