@@ -2,3 +2,6 @@ tmp/*
 log/*
 doc/*
 public/plugin_assets/*
+public/system
+public/test
+*.DS_Store*
