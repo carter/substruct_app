@@ -25,3 +25,6 @@
 [submodule "vendor/rails"]
 	path = vendor/rails
 	url = git://github.com/rails/rails.git
+[submodule "vendor/plugins/active_translation"]
+	path = vendor/plugins/active_translation
+	url = git://github.com/carter/active_translation.git

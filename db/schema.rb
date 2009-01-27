@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090119013932) do
+ActiveRecord::Schema.define(:version => 20090127213511) do
 
   create_table "content_node_types", :force => true do |t|
     t.string "name", :limit => 50, :default => "", :null => false
@@ -39,6 +39,15 @@ ActiveRecord::Schema.define(:version => 20090119013932) do
     t.string  "code",        :limit => 50
     t.integer "rank",        :limit => 8
     t.boolean "is_obsolete",                :default => false, :null => false
+  end
+
+  create_table "item_translations", :force => true do |t|
+    t.string   "locale",      :limit => 8
+    t.integer  "item_id"
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "items", :force => true do |t|

@@ -1,0 +1,106 @@
+# Italian translations for Ruby on Rails 
+# by Claudio Poli (masterkain@gmail.com)
+
+is:
+  navigation:
+    home: Home
+    new_in_store: New In Store
+    blog: Blog
+    manfiesto: Manifesto
+    contact_us: Contact us
+  
+  other:
+    tagline: Birkiland, the Icelandic design store.
+    shortcuts_jump_to: Shortcuts, jump to
+    main_navigation: main navigation
+    search: search
+    my_account: my account
+    you_have_items_in_your_asket: You have {{items}} in your basket
+    item: item
+    join_our_mailing_list: Join our mailing list
+    your_name: Your name
+    your_email_address: Your e-mail address
+    subscribe: Subscribe
+    terms_and_conditions: Terms & conditions
+    privacy_and_security: Privacy & security
+    categories: Categories
+    brands: Brands
+    designers: Designers
+    select: Select
+    
+  shopping:
+      view_basket: View Basket
+      quantity: Quantity
+      item: Item
+      item_price: Item Price
+      item_total: Item Total
+      remove: Remove
+      clear_cart: Clear Cart
+      subtotal: Subtotal
+      tax: Tax
+      tax_refund: VAT Refund
+      shipping: Shipping
+      checkout: Checkout
+      keep_shopping: Keep Shopping
+      total: Total
+      size: Size
+      add_to_cart: Add to Basket
+      nothing_in_cart: Nothing in your cart
+      empty_your_cart: Empty your entire cart?
+  checkout:
+      this_is_secure: This is a secure order form
+      email_address: Email Address
+      your_email_address: Your Email Address
+      credit_card_information: Credit Card Information
+      card_number: Card Number
+      we_accept: We accept Visa and MasterCard
+      security_code: Security Code
+      last_three_digits: (last 3 digits on back of card)
+      expiration_date: Expiration Date
+      verify_order: Verify Order
+      confirm_order: Verify Order
+      go_back: Go Back
+      select_shipping: Select Your Shipping Method
+      submit_your_order: Submit Your Order
+      submitting: Submitting... Please Wait
+      please_wait: Please Wait
+      step: Step
+      of: of
+      confirmation: You Will Receive Your Confirmation Email Shortly
+      order_items: Order Items
+      order_number: Order Number
+      order_details: Order Details
+      no_credit_card_on_file: No Credit Card On File
+  address:
+      billing_address: Billing Address
+      shipping_address: Shipping Address
+      billing_shipping_same: My shipping and billing addresses are the same.
+      no_po: No shipments to PO or APO Boxes
+      first_name: First Name
+      last_name: Last Name
+      name: Name
+      address: Address
+      city: City
+      state: State/Prov
+      postal_code: Postal Code
+      country: Country
+      phone: Phone
+  title:
+      search_results: Search Results for
+      thanks_for_order: Thanks for your order!
+  flash:
+      successful_payment: Card processed successfully
+      failed_payment: Something went wrong and your transaction failed. Please try again or contact us
+      missing_information: There were some problems with the information you entered. Please look at the fields below.
+  validation:
+      taken_email: This email address has already been taken in our system. If you have already ordered with us, please login.
+      invalid_email: Please enter a valids email address
+      missing_postal_code: If you live in a country that doesn't have postal codes please enter '00000'
+      missing_field: Please fill in this field.
+  email:
+      welcome_to: Welcome To
+      signed_up_as: You've been signed up as
+      password: Password
+      please_save: Please save this for your records.
+      thanks_for_join: Thanks again for joining!
+      password_reset: Your password has been reset.
